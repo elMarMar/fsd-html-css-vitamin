@@ -1,0 +1,38 @@
+html {
+  font-family: "Comic Sans MS", "Arial", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Papyrus";
+  color: purple;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background-color: gray;
+}
+li {
+  margin: 0px;
+  padding: 16px;
+  display: inline-block;
+  /*Does not push content onto next line; Content size can be modified*/
+  transition: background-color 0.1s ease-in-out; /*Added this personally to play with transitions*/
+}
+
+li:hover {
+  background-color: #aaa;
+}
+
+li a {
+  color: black;
+}
+
+footer {
+  background-color: #ddd;
+  color: #555;
+  text-align: center;
+  padding: 16px;
+}
